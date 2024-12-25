@@ -34,6 +34,7 @@
 // 		panic(err)
 // 	}
 // 	defer response.Body.Close()
+
 // 	content, err := ioutil.ReadAll(response.Body)
 // 	if err != nil {
 // 		panic(err)
